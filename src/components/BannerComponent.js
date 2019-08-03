@@ -6,7 +6,7 @@ const Banner = () => (
     <div className="row mt-3">
       <div className="col col-lg-5">
         <div className="ml-5 mt-5">
-          <h1 className="text-success">Maquinista</h1>
+          <h1 className="text-success display-4">Maquinista</h1>
           <p className="lead mt-3">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae iure,
             libero saepe eaque cupiditate accusantium eos quas sapiente illo
