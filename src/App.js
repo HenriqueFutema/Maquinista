@@ -5,6 +5,7 @@ import NavBar from "./components/NavBarComponent";
 import Banner from "./components/BannerComponent";
 import NossoObjetivo from "./components/NossoObjetivoComponent";
 import ComoFunciona from "./components/ComoFuncionaComponent";
+import Form from "./components/FormComponent";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Banner />
       <NossoObjetivo />
       <ComoFunciona />
+      <Form />
     </div>
   );
 }
