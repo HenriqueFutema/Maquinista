@@ -5,7 +5,8 @@ import Chat from "../assets/chat2.png";
 import Lampada from "../assets/lampada.png";
 
 const ComoFunciona = () => (
-  <div className="container mt-5">
+  <div className="container mt-5 mb-5">
+    <h1 className="display-4 text-center my-5">Como Funciona</h1>
     <div className="row">
       <div className="col-12 col-lg-4 col-md-4">
         <p className="text-center">
