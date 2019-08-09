@@ -18,7 +18,7 @@ const Banner = () => (
         </div>
       </div>
       <div className="col-12 col-lg-6 col-md-12">
-        <img src={Note} alt="" srcset="" className="img-fluid" />
+        <img src={Note} alt="" className="img-fluid" />
       </div>
     </div>
   </div>

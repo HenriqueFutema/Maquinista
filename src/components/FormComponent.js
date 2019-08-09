@@ -1,7 +1,5 @@
 import React from "react";
 
-// import { Container } from './styles';
-
 export default function Form() {
   return (
     <div className="container mt-5">
@@ -13,7 +11,7 @@ export default function Form() {
               <label>Nome:</label>
 
               <input
-                class="form-control form-control-lg mb-3"
+                className="form-control form-control-lg mb-3"
                 type="text"
                 placeholder=""
               />
@@ -22,7 +20,7 @@ export default function Form() {
               <label>Email:</label>
 
               <input
-                class="form-control form-control-lg mb-3"
+                className="form-control form-control-lg mb-3"
                 type="text"
                 placeholder=""
               />

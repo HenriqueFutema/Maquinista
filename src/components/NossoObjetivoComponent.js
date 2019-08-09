@@ -18,16 +18,16 @@ const NossoObjetivo = () => (
       <div className="col-12 col-lg-6">
         <div className="row">
           <div className="col-12 col-lg-6 col-md-6">
-            <img src={Test} alt="" srcset="" className="img-fluid" />
+            <img src={Test} alt="" className="img-fluid" />
           </div>
           <div className="col-12 col-lg-6 col-md-6">
-            <img src={Test} alt="" srcset="" className="img-fluid" />
+            <img src={Test} alt="" className="img-fluid" />
           </div>
           <div className="col-12 col-lg-6 col-md-6">
-            <img src={Test} alt="" srcset="" className="img-fluid" />
+            <img src={Test} alt="" className="img-fluid" />
           </div>
           <div className="col-12 col-lg-6 col-md-6">
-            <img src={Test} alt="" srcset="" className="img-fluid" />
+            <img src={Test} alt="" className="img-fluid" />
           </div>
         </div>
       </div>
