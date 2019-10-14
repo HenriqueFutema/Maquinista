@@ -13,7 +13,7 @@ const Banner = () => (
             assumenda quos enim
           </p>
           <button className="btn button-cor px-4 mt-3 text-white mb-3">
-            Ver Mais
+            See More
           </button>
         </div>
       </div>

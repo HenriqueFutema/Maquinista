@@ -8,8 +8,9 @@ export default function Jumb() {
     >
       <div className="jumb-2">
         <h1 className="display-2">
-          O que voçê quer ser <br />
-          quando crescer ?
+          What do you want to be when
+          <br />
+          you grow up ?
         </h1>
       </div>
     </div>

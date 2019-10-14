@@ -19,18 +19,27 @@ const NossoObjetivo = () => (
       </div>
       <div className="col-12 col-lg-6 text-center">
         <div className="row">
-          <div className="col-12 col-lg-6 col-md-6 p-0">
-            <img src={Lampada} alt="" className="img-fluid" />
-          </div>
-          <div className="col-12 col-lg-6 col-md-6 p-0">
-            <img src={Formandos} alt="" className="img-fluid" />
-          </div>
-          <div className="col-12 col-lg-6 col-md-6 p-0 mt-2">
-            <img src={Formandos} alt="" className="img-fluid" />
-          </div>
-          <div className="col-12 col-lg-6 col-md-6 p-0 mt-2">
-            <img src={Lampada} alt="" className="img-fluid" />
-          </div>
+          <img
+            src={Lampada}
+            alt=""
+            className="img-fluid col-12 col-lg-6 col-md-6"
+          />
+          <img
+            src={Formandos}
+            alt=""
+            className="img-fluid col-12 col-lg-6 col-md-6 "
+          />
+          <img
+            src={Formandos}
+            alt=""
+            className="img-fluid col-12 col-lg-6 col-md-6 mt-2"
+          />
+
+          <img
+            src={Lampada}
+            alt=""
+            className="img-fluid col-12 col-lg-6 col-md-6 mt-2"
+          />
         </div>
       </div>
     </div>
