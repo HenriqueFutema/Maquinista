@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+
 .App-header {
     background-color: #282c34;
     min-height: 100vh;
@@ -9,16 +11,41 @@
     color: white;
 }
 
+h1{
+    font-size: 48px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 100px;
+    color: #383838;
+}
+
+h3{
+    font-size: 28px;
+    font-family: 'PT Sans', sans-serif;
+    color: #383838;
+}
+
+p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+}
+
+.card p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+}
+
+.icon{
+    color: #004a94;
+    font-size: 58px;
+
+}
+
 .App-link {
     color: #61dafb;
 }
 
-h1 {
-    color: #81f1a3 !important;
-}
-
 .button-cor {
-    background-color: #81f1a3 !important;
+    background-color: #004a94 !important;
 }
 
 .jumb {
@@ -28,6 +55,11 @@ h1 {
     background-size: cover;
     height: 430px;
 }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
 
 .jumb-2 {
     background-color: rgba(129, 241, 163, 0.8);
