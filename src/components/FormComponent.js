@@ -1,28 +1,40 @@
 import React, { useState, useCallback } from "react";
+import sweetalert from "sweetalert";
 
 import firebaseDb from "../services/firebaseConfig";
+
 export default function Form() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [content, setContent] = useState("");
 
-  const handleSubmit = useCallback(async e => {
-    e.preventDefault();
+  const handleSubmit = useCallback(
+    async e => {
+      e.preventDefault();
 
-    await firebaseDb
-      .ref("suggestion")
-      .push({ name: name, email: email, content: content })
-      .then(data => {
-        console.log(data);
-      })
-      .catch(error => {
-        console.log(error);
-      });
+      if (name !== "" || email !== "" || content !== "") {
+        await firebaseDb
+          .ref("suggestion")
+          .push({ name: name, email: email, content: content })
+          .then(data => {
+            console.log(data);
+            sweetalert(
+              "Mensagem Enviada",
+              "A Maquinista entrará em contato",
+              "success"
+            );
+          })
+          .catch(error => {
+            console.log(error);
+          });
+      }
 
-    setName("");
-    setEmail("");
-    setContent("");
-  });
+      setName("");
+      setEmail("");
+      setContent("");
+    },
+    [name, email, content]
+  );
 
   return (
     <div className="container mt-5">
