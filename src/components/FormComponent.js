@@ -37,13 +37,13 @@ export default function Form() {
   );
 
   return (
-    <div className="container mt-5">
+    <div className="container mt-5" id="contato">
       <div className="row">
-        <div className="col-lg-6">
-          <h1 className="display-4 mt-5">Contact</h1>
+        <div className="col-lg-12">
+          <h1 className="display-4 mt-5">Contato</h1>
           <form className="mt-3" onSubmit={handleSubmit}>
             <div className="form-group">
-              <label>Name:</label>
+              <label>Nome:</label>
 
               <input
                 className="form-control form-control-lg mb-3"
@@ -65,7 +65,7 @@ export default function Form() {
               />
             </div>
             <div className="form-group">
-              <label>Message:</label>
+              <label>Mensagem:</label>
 
               <textarea
                 className="form-control"
@@ -78,11 +78,10 @@ export default function Form() {
               className="btn button-cor px-4 mt-3 text-white mb-3"
               type="submit"
             >
-              Send
+              Enviar
             </button>
           </form>
         </div>
-        <div className="col-lg-6"></div>
       </div>
     </div>
   );

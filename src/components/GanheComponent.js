@@ -3,7 +3,7 @@ import Chat from "../assets/aaa.png";
 
 export default function GanheComponent() {
   return (
-    <div className="container mt-5">
+    <div className="container mt-5" id="ganhe">
       <div className="row">
         <div className="col-lg-6">
           <p className="text-center">
@@ -15,10 +15,10 @@ export default function GanheComponent() {
           <br />
 
           <h1 className="my-4">Ganhe mais tempo</h1>
-          <p class="text-muted pb-3">
-            Os chatbots permitem alta singularização. Para o usuário, fica a
-            sensação de estar realmente falando com outra pessoa. Para a
-            empresa, é um mecanismo que garante satisfação.
+          <p className="text-muted pb-3">
+            Os chatbots registram as informações básicas das conversas e
+            facilitam as resoluções, reduzindo o tempo de resposta e as filas de
+            atendimento.
           </p>
         </div>
       </div>
